@@ -32,16 +32,16 @@
 //$dotenv->load();
 
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'srw85kyg2i59h6le' );
+define( 'DB_NAME', 'uyq0p84g130itv70' );
  
 /** データベースのユーザー名 */
-define( 'DB_USER', 'li7ib562ekfzj4ze' );
+define( 'DB_USER', 'ma42vr43w0plwnay' );
  
 /** データベースのパスワード */
-define( 'DB_PASSWORD', 'uiatgkkl7ndsdfxx' );
+define( 'DB_PASSWORD', 'ju2iq2a46kjr5typ' );
  
 /** データベースのホスト名 */
-define( 'DB_HOST', 'n4m3x5ti89xl6czh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306' );
+define( 'DB_HOST', 'cxmgkzhk95kfgbq4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306' );
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define( 'DB_CHARSET', 'utf8mb4' );
