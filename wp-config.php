@@ -25,13 +25,13 @@
 // を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
 // ** データベース設定 - この情報はホスティング先から入手してください。 ** //
-/** WordPress のためのデータベース名 */
 
 /* dotenvの環境変数呼び出し */
 require 'vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
+/** WordPress のためのデータベース名 */
 define( 'DB_NAME', $_ENV["Database"] );
 
 /** データベースのユーザー名 */
