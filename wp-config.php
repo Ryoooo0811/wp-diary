@@ -27,9 +27,9 @@
 // ** データベース設定 - この情報はホスティング先から入手してください。 ** //
 
 /* dotenvの環境変数呼び出し */
-require 'vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+//require 'vendor/autoload.php';
+//$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+//$dotenv->load();
 
 /** WordPress のためのデータベース名 */
 define( 'DB_NAME', 'srw85kyg2i59h6le' );
