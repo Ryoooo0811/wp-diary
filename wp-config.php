@@ -32,16 +32,16 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'y8zh5teviucmpkkx' );
-
+define( 'DB_NAME', $_ENV["Database"] );
+ 
 /** データベースのユーザー名 */
-define( 'DB_USER', 'lzot8aj1zej4wkjt' );
-
+define( 'DB_USER', $_ENV["Username"]);
+ 
 /** データベースのパスワード */
-define( 'DB_PASSWORD', 'hq750856rng2s543' );
-
+define( 'DB_PASSWORD', $_ENV["Password"] );
+ 
 /** データベースのホスト名 */
-define( 'DB_HOST', 'cxmgkzhk95kfgbq4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306' );
+define( 'DB_HOST', $_ENV["Host"] );
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define( 'DB_CHARSET', 'utf8mb4' );
