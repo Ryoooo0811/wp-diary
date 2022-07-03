@@ -27,21 +27,21 @@
 // ** データベース設定 - この情報はホスティング先から入手してください。 ** //
 
 /* dotenvの環境変数呼び出し */
-require 'vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+//require 'vendor/autoload.php';
+//$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+//$dotenv->load();
 
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'uyq0p84g130itv70' );
+define( 'DB_NAME', 'DATA_BASE' );
  
 /** データベースのユーザー名 */
-define( 'DB_USER', 'ma42vr43w0plwnay' );
+define( 'DB_USER', 'USER_NAME' );
  
 /** データベースのパスワード */
-define( 'DB_PASSWORD', 'ju2iq2a46kjr5typ' );
+define( 'DB_PASSWORD', 'PASS_WORD' );
  
 /** データベースのホスト名 */
-define( 'DB_HOST', 'cxmgkzhk95kfgbq4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306' );
+define( 'DB_HOST', 'HOST_NAME' );
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define( 'DB_CHARSET', 'utf8mb4' );
