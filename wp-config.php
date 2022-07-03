@@ -91,7 +91,8 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* カスタム値は、この行と「編集が必要なのはここまでです」の行の間に追加してください。 */
-
+define( 'WP_HOME', 'http://wp-diary.herokuapp.com' );
+define( 'WP_SITEURL', 'http://wp-diary.herokuapp.com' );
 
 /* 編集が必要なのはここまでです ! WordPress でのパブリッシングをお楽しみください。 */
 
